@@ -91,13 +91,11 @@ const CustomForm = ({ status, message, onValidated }) => {
               formValues={[email, firstName, lastName]}
               />
             
-      </div>
-              <input
-              className="d-inline d-md-none mc__submit"
-              label="subscribe"
-              type="submit"
-              formValues={[email, firstName, lastName]}
-              />
+      </div>  
+      {
+              <button className="mt-1 mt-md-0 d-inline d-md-none mc__submit" label="subscribe" type="submit" formValues={[email, firstName, lastName]}>
+                Envoyer
+              </button>}
             
 
     </form>

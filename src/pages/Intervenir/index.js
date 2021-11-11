@@ -137,7 +137,7 @@ const Intervenir = () => {
                                 />
                             </Form.Group>
                             <Button className="mb-3 mb-md-4 mb-xl-5 formButton" type="submit">
-                                Envoyez
+                                Envoyer
                             </Button>
                             
                            
