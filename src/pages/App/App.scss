@@ -1,0 +1,54 @@
+@import '../../components/Colors/colors.scss';
+@font-face {
+  font-family: "brusherreg";
+  src: url(../../fonts/Brusher/Brusher-Regular.ttf);
+}
+@font-face {
+  font-family: "opensansreg";
+  src: url(../../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "opensansbold";
+  src: url(../../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "amaranthreg";
+  src: url(../../fonts/Amaranth/Amaranth-Regular.ttf);
+}
+
+body{
+  font-family: "opensansreg" !important;
+  background-color: $bg-color !important;
+}
+h1, h2, h3, h4, h5{
+  font-family: "amaranthreg";
+  color: $dark-color;
+}
+.ovd-link{
+  text-decoration: none;
+}
+.ovd-p-bold{
+  font-family: "opensansbold";
+}
+.dark{
+  background-color: $dark-color;
+  color: $dark-color-font;
+}
+
+
+.underline{
+  text-decoration: underline #4DB3E9;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+  @media (min-width: 1200px) {
+    .ovd-card{
+      padding: 50px;
+    }
+    .underline{
+      text-underline-offset: 10px;
+      text-decoration-thickness: 10px;
+    }
+  }
+
+

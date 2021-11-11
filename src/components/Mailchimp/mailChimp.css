@@ -1,0 +1,40 @@
+.form-container input {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #4DB3E9;
+  height: 35px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-container .mc__input::-webkit-input-placeholder {
+  color: #fdfbf5;
+  padding-left: 5px;
+}
+
+.form-container .mc__input:-ms-input-placeholder {
+  color: #fdfbf5;
+  padding-left: 5px;
+}
+
+.form-container .mc__input::-ms-input-placeholder {
+  color: #fdfbf5;
+  padding-left: 5px;
+}
+
+.form-container .mc__input::placeholder {
+  color: #fdfbf5;
+  padding-left: 5px;
+}
+
+.form-container .mc__submit {
+  background-color: white;
+  color: #414dd8;
+}
+
+.mc__submit {
+  background-color: white;
+  color: #414dd8;
+}
+/*# sourceMappingURL=mailChimp.css.map */

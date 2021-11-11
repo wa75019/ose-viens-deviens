@@ -1,0 +1,11 @@
+.ovd-card-title {
+  color: #414dd8;
+}
+
+.text-justify {
+  text-align: justify;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+/*# sourceMappingURL=card.css.map */

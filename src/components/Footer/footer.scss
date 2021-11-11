@@ -1,0 +1,25 @@
+@import '../Colors/colors.scss';
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    p{
+        color: white;
+    }
+    .reseaux img{
+        width: 8%;
+    }
+    .plan a{
+        color: $dark-color;
+    }
+}
+
+    @media (min-width: 768px) {
+        .footer{
+            height: 300px;
+            .footer-item{
+                width: 33%;
+            }
+        }
+    }     

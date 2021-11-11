@@ -1,0 +1,12 @@
+
+.qui-img{
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .qui-img{
+        width: 50%;
+        margin-right: 50px;
+    }
+}

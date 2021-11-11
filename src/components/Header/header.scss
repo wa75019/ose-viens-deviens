@@ -1,0 +1,76 @@
+@import '../Colors/colors.scss';
+.navbar{
+  background-color: white;
+  box-shadow: 2px 0.5px 6px rgba(0, 0, 0, 0.2);
+}
+.ovd-header{
+    .ovd-headerLink{
+      text-align: right;
+      color: #23232c !important;  
+    }
+    .ovd-headerTitle{
+      color: $dark-color !important;
+      font-family: "brusherreg";
+      font-size: 26px!important;
+    }
+
+  }
+
+  @media (min-width: 768px) { 
+    .ovd-header{
+      .ovd-flexNav{
+        width: 100%;
+        align-items: center;
+        .ovd-headerLogo a{
+            font-size: 32px !important;        
+        }
+        .ovd-headerLink{
+          display: flex;
+          flex-direction: row;
+          margin-left: auto;  
+          .nav-link{
+            padding-right: 17px;
+            &.active{
+              color: $dark-color !important;
+            }
+            &:last-child{
+              padding-right: 8px;
+              color: $dark-color !important;
+              border: 3px solid $dark-color;
+              &.active{
+                background-color: $dark-color;
+                color: white !important;
+              }
+            }
+          }       
+        }
+      }     
+    }
+    
+
+  }
+
+    @media (min-width: 992px) { 
+      .ovd-header{
+        .ovd-flexNav{
+          .ovd-headerLogo a{
+              font-size: 56px!important;        
+          }
+        }
+        .ovd-headerLink{
+          .nav-link{
+            padding-right: 36px !important;
+            &:last-child{
+              padding-right: 8px !important;
+              &:hover{
+                background-color: $dark-color;
+                color: white !important;
+                transition: 0.7s ease-in-out;
+              }
+            }
+          }
+        }
+      }       
+      
+
+    }

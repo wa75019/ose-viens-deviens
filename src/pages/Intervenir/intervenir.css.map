@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,CAAA;EACZ,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;CACpB;;AACD,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,KAAK;EACvB,KAAK,ECRI,OAAO;CDcnB;;AARD,AAGI,WAHO,AAGN,MAAM,CAAA;EACH,gBAAgB,ECVX,OAAO;EDWZ,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,cAAc;CAC7B;;AAEL,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,YAAY,CAAA;IACR,KAAK,EAAE,GAAG;IACV,YAAY,EAAE,IAClB;GAAC;EACD,AAAA,WAAW,CAAA;IACP,KAAK,EAAE,GAAG;GACb",
+    "sources": [
+        "intervenir.scss",
+        "../../components/Colors/colors.scss"
+    ],
+    "names": [],
+    "file": "intervenir.css"
+}

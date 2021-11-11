@@ -1,0 +1,85 @@
+.ovd-jumbotron {
+  font-size: 2rem !important;
+}
+
+.ovd-newsletter {
+  height: 290px;
+}
+
+.ovd-landing-vision-img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+q {
+  font-family: "amaranthreg";
+  font-size: 1.5em;
+}
+
+.ovd-sub-link {
+  width: 150px;
+  text-align: center;
+  color: white;
+  background-color: #414dd8;
+  border: 3px solid #414dd8;
+}
+
+.ovd-sub-link:hover {
+  color: #414dd8;
+  background-color: transparent;
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+.img-landing-end {
+  width: 75%;
+}
+
+@media (min-width: 768px) {
+  .ovd-newsletter {
+    margin: -30px auto 0px auto;
+    height: 190px;
+  }
+  .ovd-qui-content {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .ovd-cards-accroche {
+    font-size: 16px;
+  }
+  .ovd-cards-accroche-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .ovd-landing-vision-img {
+    width: 30%;
+  }
+  q {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 992px) {
+  .ovd-newsletter {
+    margin: -40px auto 0px auto;
+    height: 140px;
+  }
+  .ovd-cards-accroche {
+    font-size: 20px;
+  }
+  .ovd-cards-accroche-text {
+    width: 70%;
+  }
+  .ovd-landing-vision-img {
+    width: 25%;
+  }
+  q {
+    font-size: 2.5em;
+  }
+  .img-landing-end {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=landing.css.map */

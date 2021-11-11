@@ -1,0 +1,10 @@
+.contenu-formation h4 {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .programme, .ateliers {
+    padding-right: 100px;
+  }
+}
+/*# sourceMappingURL=inscription.css.map */

@@ -1,0 +1,25 @@
+@import '../Colors/colors.scss';
+
+.form-container{
+    input{
+        background-color: transparent;
+        color: white;
+        border: 1px solid #4DB3E9;
+        height: 35px;
+        border-radius: 4px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .mc__input::placeholder{
+        color: $bg-color;
+        padding-left: 5px;
+    }
+    .mc__submit{
+        background-color: white;
+        color: $dark-color;
+    }
+}
+.mc__submit{
+    background-color: white;
+    color: $dark-color;
+}

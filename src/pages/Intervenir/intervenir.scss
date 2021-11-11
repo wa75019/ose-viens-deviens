@@ -1,0 +1,24 @@
+@import '../../components/Colors/colors.scss';
+
+.intervenir-text{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.formButton{
+    background-color: white;
+    color: $dark-color;
+    &:hover{
+        background-color: $dark-color;
+        color: white;
+        transition: 1s ease-in-out;
+    }
+}
+@media (min-width: 768px) { 
+    .contact-tel{
+        width: 50%;
+        margin-right: 20px
+    }
+    .formulaire{
+        width: 50%;
+    }
+}
