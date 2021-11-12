@@ -56,7 +56,7 @@ const Inscription = () => {
                         reply_to: '',
                     })
                 }, (error) => {
-                    alert('Une erreure est survenue, merci de réessayer et veillez à remplir tout les champs');
+                    alert('Une erreur est survenue, merci de réessayer et veillez à remplir tout les champs');
                 });
         };
 

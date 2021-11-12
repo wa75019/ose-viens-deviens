@@ -19,7 +19,7 @@ function App() {
 
       <Switch>
         <Route exact path="/" component={Landing} />
-        <Route path="/Qui-sommes-nous " component={Qui} />
+        <Route path="/Qui-sommes-nous" component={Qui} />
         <Route path="/Intervenir" component={Intervenir} />
         <Route path="/Je-m-inscris" component={Inscription} />
         <Route component={ErrorPage} />

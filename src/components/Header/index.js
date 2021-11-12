@@ -73,7 +73,7 @@ const handleHomeClick = () => {
                         </div>
                         <div className="ovd-headerLink">
                             {menu.map((item) =>(              
-                                <LinkContainer to={item.replace("?", "").replace("'", "-").replace(" ", "-")} key={item} className= 'ovd-link'>
+                                <LinkContainer to={item.replace(" ?", "").replace("'", "-").replace(" ", "-")} key={item} className= 'ovd-link'>
                                     <Nav.Link onClick={handleClick}>{item}</Nav.Link>
                                 </LinkContainer> 
                             ))} 
